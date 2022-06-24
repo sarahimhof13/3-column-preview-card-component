@@ -1,0 +1,125 @@
+/* General Styles */
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap");
+
+* {
+  margin: 0;
+}
+
+h1 {
+  font-family: "Big Shoulders Display", cursive;
+  font-size: 40px;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+p {
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 25px;
+  color: #fff;
+}
+
+body {
+  background-color: #f2f2f2;
+}
+
+main {
+  margin: 88px 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.card {
+  padding: 48px;
+  margin: 0 24px 0 24px;
+  border-radius: 8px;
+}
+
+.illustration {
+  margin-bottom: 35px;
+}
+
+.card h1 {
+  margin-bottom: 25px;
+}
+
+.card p {
+  margin-bottom: 25px;
+}
+
+/* Buttons */
+.learn-btn {
+  background-color: #fff;
+  border: none;
+  border-radius: 25px;
+  width: 146px;
+  height: 48px;
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 15px;
+}
+
+.learn-btn:hover {
+  border: #fff 2px solid;
+  background-color: transparent;
+  color: #fff;
+  transition: ease-in 150ms;
+  cursor: pointer;
+}
+
+#orange-txt {
+  color: #e28625;
+}
+
+#orange-txt:hover {
+  color: #fff;
+}
+
+#light-green-txt {
+  color: #006971;
+}
+
+#light-green-txt:hover {
+  color: #fff;
+}
+
+#dark-green-txt {
+  color: #004140;
+}
+
+#dark-green-txt:hover {
+  color: #fff;
+}
+
+/* Card Colors */
+.orange {
+  background-color: #e28625;
+}
+
+.light-green {
+  background-color: #006971;
+}
+
+.dark-green {
+  background-color: #004140;
+}
+
+@media screen and (min-width: 950px) {
+  main {
+    width: 920px;
+    flex-direction: row;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+  }
+
+  .card {
+    margin: 0;
+  }
+
+  .card p {
+    margin-bottom: 83px;
+  }
+}
